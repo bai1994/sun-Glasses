@@ -1,0 +1,174 @@
+*{margin: 0;padding: 0;}
+
+body{
+	margin: 0 auto;
+	width: 100%;
+}
+ul li{list-style: none;}
+@media screen and (min-width: 1050px){
+
+}
+.container{margin: 0px;padding: 0px;}
+.header-top-in{
+	text-align: center;
+	position: relative;
+}
+.header-top-in a{
+text-decoration: none;color: #080808;font-size: small;height: 40px;font-family: 微软雅黑;
+padding-left: 4%;
+}
+.header-top-in a:hover{
+	color:#ff5d5a;text-decoration: none;
+}
+#left_mes_remark a img{
+	height: 26px;width: 26px;
+}
+#left_mes{
+	float: left;
+	text-align: center;width: 34%;
+
+}
+#right_mes{
+	float: left;
+	text-align: center;width: 52%;
+
+}
+.title{
+	height: 90px;width: 100%;top: 1vw;
+	position: relative;z-index: 100;
+	background: #7a778c;
+	background: -webkit-linear-gradient(right, #7a778c 90%, #a8a1b6 60%,#a5a1b6 60%,#7a7890 90%); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #7a778c 90%, #a8a1b6 60%,#a5a1b6 60%,#7a7890 90%); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #7a778c 90%, #a8a1b6 60%,#a5a1b6 60%,#7a7890 90%); /* Firefox 3.6 - 15 */
+    background: linear-gradient(right, #7a778c 90%, #a8a1b6 60%,#a5a1b6 60%,#7a7890 90%); /* 标准的语法（必须放在最后） */
+}
+#logo{
+	width: 80%;float: left;left: 10%;width: 20%;
+	font-size: 3vw;line-height: 90px;position: relative;
+}
+
+/*子标题的样式*/
+#son_title{
+line-height: 90px;position: absolute;float: left;left: 22%;
+}
+#son_title ul li{
+	float: left;width: 9%;color: #fff;font-size:1.2vw;list-style: none;
+}
+#son_title ul li a{
+	color:#fff;
+}
+
+/*购物车的样式*/
+#shopping_cart{
+	line-height: 90px;position: absolute;float: left;left: 82%;
+}
+#shopping_cart a{
+	float: left;
+	color: #fff;
+}
+#pic{
+	width: 100%;
+	height: 12vw;
+	overflow: hidden;
+	/*border: 1px dashed blue;*/
+	position: relative;text-align: center;
+}
+#pic img{
+	width: 100%;position: relative;top: -6vw;}
+#pic h1{float: inherit;font-size:48px;position: relative;
+text-align: center;top: 3vw;z-index: 100;color: #fff;}
+/*返回顶部样式*/
+.return_top{cursor:pointer;position: fixed;float: right;right: 0px;top: 42vw;z-index: 500;}
+
+#mes_data{position: relative;}
+#mes_data p{margin-top: 2vw;}
+#mes_data h3{color:#ff5d5a;}
+#mes_data input[type='text']{width: 55%;height: 3vw;border: 1px solid #696969;padding-left:8px; }
+#mes_data input[type='submit']{width: 12%;height: 3vw;border: none;background: #ff5d5a;color: #fff; }
+
+
+
+/*弹出框样式设计*/
+.infor-block{
+	position: relative;
+	width: 50vw;height: 24vw;
+	background: #fff;left: -10vw;
+	border: 1px solid #ff5d5a;
+	z-index: 1000;display: none;
+}
+.infor-block h4{color: #ff5d5a;top: 1vw;}
+#infor-fr{
+	float: left;display: inline;margin-left: 6vw;
+}
+#infor-fr span{position: relative;top: 2vw}
+#infor-fr span p{
+	color: #000;height: 2vw;font-size: small;line-height: 2vw;
+	margin: 0 auto;cursor: pointer;/*border: 1px dashed red;*/
+}
+#infor-fr span p:hover{
+	color: #ff5d5a;cursor: pointer;
+}
+/*底部模特图片样式*/
+#shoping{margin: 0px;padding: 0px;top: 20px;position: relative;height: 22vw;border: 1px dashed;}
+#shoping img{width: 100%;}
+.happy_shop{
+border: 2px solid white;
+float: left;
+position: relative;
+left: 2vw;
+top: -21vw;
+color: #fff;
+width: 96%;
+height: 19vw;
+}
+.happy_shop h1{font-size: 72px;font-family: 方正兰亭黑体;position: relative;
+left: 10vw;}
+.happy_shop h2{font-size: 36px;font-family: April;position: relative;
+left: 10vw;}
+
+
+
+/*底部的样式*/
+#footer ul{margin-top: 3vw;left: 3vw;position: relative;}
+#footer ul li{margin-top: 1vw;}
+#footer input{width: 19vw;height: 2vw;}
+#footer{background: #fafafa;margin: 0px auto;text-align: center;top: 0vw;}
+
+#product_go{padding: 1vw 0 0;margin: 0px auto;position: relative;margin-top: 2vw;}
+.evalute span{display: inline-block;position: relative;}
+.fashion_link{float: right;position: relative;right: 1vw;top: -5vw;}
+.fashion_link a{float: right;position: relative;}
+#product_go .Mes_remark{width: 55%;text-align: left;left: 6vw;position: relative;}
+#product_go .Mes_remark h5{color: #ff5d56;}
+#product_go .Mes_remark del{color: #686868;}
+.fashion_link p{color: #fff;font-size: 0.5em;background: #ff5d56;border-radius: 100px;
+width: 22px;height: 22px;position: absolute;top: 5px;right: 4px;text-align: center;padding: 0.8em 0 0;}
+.fashion_link a img{width: 75px;height: 104px;border: 1px solid #000;}
+#footer input[type="submit"] {
+    width: 40%;height: 3vw;
+    font-size: 1em;
+    background: #ff5d56;
+    padding: 0.5em 1em;
+    text-align: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    /*float: right;*/
+    /*border: 1px solid #ff5d56;*/
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.share{position: relative;left: 6vw;margin: 0px auto;}
+.share ul li{float: left;background: #000;margin-left: 1vw;}
+.share ul li img{width: 2vw;height: 2vw;}
+.link_web{
+	border: 1px dashed #990088;text-align: left;width: 60%;left: 7vw;position: relative;
+top: 3vw;
+}
+.link_web a{text-decoration: none;color: #696969;font-size: small;}
+.link_web img{width: 16px;height: 16px;}
+.paypal{position: relative;top: 4vw;left:1vw;margin: 0px auto;width: 40%;}
